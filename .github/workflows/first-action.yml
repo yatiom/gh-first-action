@@ -8,4 +8,8 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "Goodbye"
+      - name: Running multiple commands
+        run: |
+            ifconfig
+            netstat -a
         
