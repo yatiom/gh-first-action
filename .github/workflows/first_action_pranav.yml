@@ -9,7 +9,7 @@ jobs:
       - name: Print goodbye
         run: echo "Done ! Bye"
   second job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Running Multiple Commands
       - run: |
