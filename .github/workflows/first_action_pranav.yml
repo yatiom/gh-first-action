@@ -8,7 +8,7 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "Done ! Bye"
-  second job:
+  second-job:
     runs-on: windows-latest
     steps:
       - name: Running Multiple Commands
