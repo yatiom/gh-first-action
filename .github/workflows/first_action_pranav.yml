@@ -12,7 +12,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Running Multiple Commands
-      - run: |
+        run: |
             ifconfig
             echo "ifconfig successful"
             ls -a
